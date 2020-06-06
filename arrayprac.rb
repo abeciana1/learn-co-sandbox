@@ -6,4 +6,4 @@ shark_family = [
   "Grandpa Shark"
   ]
   
-  puts shark_family[4]
+  puts shark_family.index()
