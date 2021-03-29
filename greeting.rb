@@ -1,8 +1,10 @@
-the_beatles = [ "John Lennon", "Paul McCartney", "Ringo Starr", "George Harrison"]
+require 'pry'
 
-english_bands_by_city = {
- :liverpool =>   "The Beatles",
- :manchester =>  "The Smiths",
- :coventry =>    "Delia Derbyshire and the BBC Radiophonic Band",
- :london =>      "Ziggy Stardust and the Spiders from Mars"
-}
+dogs = [
+  {name: "dog1", breed: "German Shepherd"},
+  {name: "dog2", breed: "Golden"}
+]
+
+def find_dog (breed)
+  binding.pry
+end
